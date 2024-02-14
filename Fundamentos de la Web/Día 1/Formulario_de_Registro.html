@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Mi formulario de registro</title>
+        <meta charset = "UTF-8">
+    </head>
+    <body>
+        <h1>Mi formulario de registro</h1>
+        <form>
+            <div>
+                <label>Nombre:</label>
+                <input type="text">
+            </div>
+            <div>
+                <label>Apellido:</label>
+                <input type="text">
+            </div>
+            <div>
+                <label>Email:</label>
+                <input type="text">
+            </div>
+            <div>
+                <label>Contraseña:</label>
+                <input type="password">
+            </div>
+            <div>
+                <label>Confirmar:</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="miFecha">Cumpleaños:</label>
+                <input type="date" name="miFecha" id="miFecha">
+            </div>
+            <div>
+                <label for="masculino">Masculino:</label>
+                <input type="radio" id="masculino">
+                <label for="femenino">Femenino:</label>
+                <input type="radio" id="femenino">
+                <label for="otro">Otro:</label>
+                <input type="radio" id="otro">
+            </div>
+            <div>
+                <label for="comentario">Una breve descripción de ti:</label> 
+                    <div>
+                <textarea name="comentario" id="comentario"></textarea>
+                    </div>
+            </div>
+            <div>
+                <label for="miLenguaje">Lenguaje Favorito</label>
+                <select name="miLenguaje" id="miLenguaje">
+                    <option>JavaScript</option>
+                    <option>Java</option>
+                </select>
+            </div>
+            <div>
+                <button>Enviar</button>
+            </div>
+        </form>
+    </body>
+</html>
